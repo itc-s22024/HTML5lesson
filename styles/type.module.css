@@ -1,0 +1,48 @@
+.list {
+    display: flex;
+    list-style-type: none;
+    background-color: #EEE;
+    padding: 8px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.list > li {
+    background-color: #FFF;
+    border: 1px solid #999;
+    font-size: 13px;
+    list-style-type: none;
+    padding: 0;
+    width: 144px;
+    margin: 2px;
+}
+
+.list >li > h2 {
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Arial Black';
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.menu {
+    padding: 10px;
+}
+
+.menu > li {
+    font-size: 13px;
+    list-style-type: none;
+}
+
+.red {
+    background-color: #990000;
+}
+
+.bulue {
+    background-color: #000099;
+}
+
+.gleen {
+    background-color: #009900;
+}

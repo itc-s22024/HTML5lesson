@@ -1,0 +1,40 @@
+.body {
+    height: 900px;
+    margin: -9px;
+    background-color: #EDC;
+}
+
+.box {
+    margin: 17px 0 0 9px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 0 0 10px #CCC inset;
+    font-family: serif;
+    text-align: center;
+    width: 400px;
+}
+
+.box_head {
+    background: #753;
+    box-shadow: 0 0 10px #333 inset;
+    padding: 10px;
+}
+
+.box_head > h1 {
+    color: #FFF;
+    margin: 0;
+    text-shadow: 0 -2px 0 #333;
+}
+
+.box_body {
+    padding: 10px;
+}
+
+.box_body > h2 {
+    font-size: 18px;
+}
+
+.box_body > ul {
+    list-style: none;
+    padding: 0;
+}
