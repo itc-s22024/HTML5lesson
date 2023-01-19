@@ -1,18 +1,9 @@
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Nav from "../components/nav";
 
-const Home = () => {
-  return(
-  <>
-  <Header  red/>
-  <main>
-    <div>
-      <h1>cube</h1>
-      <p>akan</p>
-    </div>
-  </main>
-  <Footer />
-  </>
-)
-}
-export default Home
+const Main = () =>
+  <div>
+    <h1>CodePrep</h1>
+    <Nav />
+  </div>
+
+export default Main

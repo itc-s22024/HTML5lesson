@@ -1,6 +1,13 @@
 import styles from '../styles/menu.module.css'
 
 const Menu = () =>
+    <div>
+    <style jsx global>{`
+        body {
+            background-color: #EDC;
+        }
+        `}
+    </style>
     <div className={styles.body}>
         <div className={styles.box}>
             <div className={styles.box_head}>
@@ -15,5 +22,6 @@ const Menu = () =>
                 </ul>
             </nav>
         </div>
+    </div>
     </div>
 export default Menu
